@@ -1,0 +1,22 @@
+{
+    "name": "beanmoss/annotroute",
+    "description": "Allows you to use Route annotations on your controllers.",
+    "keywords": ["routing", "annotation", "controller", "laravel"],
+    "authors": [
+        {
+            "name": "R. Luna",
+            "email": "r.luna@arcanys.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "illuminate/support": "4.2.*",
+        "doctrine/common": "~2.4"
+    },
+    "autoload": {
+        "psr-0": {
+            "Beanmoss\\Annotroute": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}
