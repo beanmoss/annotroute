@@ -7,7 +7,7 @@ Allows you to use Route annotations on your laravel controllers.
 To install annotroute as a Composer package to be used with Laravel 4, simply add this to your composer.json:
 
 ```json
-"route": "dev-master"
+"beanmoss/annotroute": "dev-master"
 ```
 
 ..and run `composer update`.  Once it's installed, you can register the service provider in `app/config/app.php` in the `providers` array.
@@ -24,7 +24,7 @@ and for the Facade:
 
 ```php
 ...
-''AnnotRoute'      => 'Beanmoss\Annotroute\Facade\AnnotRoute',
+'AnnotRoute'      => 'Beanmoss\Annotroute\Facade\AnnotRoute',
 ...
 ```
 
@@ -95,5 +95,5 @@ And somewhere in your routes.php
 AnnotRoute::generateRoute('HomeController');
 ```
 
-Thats it! If you found some bugs, pleae let me know. Thank you!
+Thats it! If you found some bugs, please let me know. Thank you!
 Also, you can help me test this ;)
