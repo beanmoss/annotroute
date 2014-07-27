@@ -2,6 +2,7 @@
     "name": "beanmoss/annotroute",
     "description": "Allows you to use Route annotations on your controllers.",
     "keywords": ["routing", "annotation", "controller", "laravel"],
+    "license": "MIT",
     "authors": [
         {
             "name": "R. Luna",
